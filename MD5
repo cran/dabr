@@ -1,0 +1,15 @@
+389db8ea4f15ad365ba8ce503a8c9143 *DESCRIPTION
+ae4d7c2deb9aa5ed393d12a131e07fe3 *NAMESPACE
+42167cc1892187f862ed493947235c58 *NEWS.md
+f504f1a388e74df6fc6bed076ab5f841 *R/dabr.R
+847348fe75222d5d93dc33ef6d41f699 *R/utils.R
+096c3b09a3b17228ebd7a3508ada176d *README.md
+5b5352d2458defc4bf1cf9e84323bf45 *inst/images/dab.png
+775b9b2c8a6f1658e29606c5bda6a4b2 *inst/images/logo.png
+0c6773371cca0dddb90a5839dd5c0ec1 *man/close_conn.Rd
+b7c97d973a3629e4fc3dd616c690214f *man/insert.Rd
+c2af3aab14e1126c7e136096d102179a *man/list_tables.Rd
+8b7d145a44c1b32f1795c613b6170c7c *man/open_conn_mysql.Rd
+2c33824d9277c6879735361be4203204 *man/select.Rd
+8b9fb67d3cbc9e3fd9f86f91a527b45d *man/select_all.Rd
+220df932d2e9b6fe332546799b043539 *man/update.Rd
