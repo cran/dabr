@@ -7,14 +7,12 @@
 \usage{
 select(conn, ...)
 
-\method{select}{MariaDBConnection}(conn, query, quiet = FALSE, ...)
+\method{select}{MariaDBConnection}(conn, ..., quiet = FALSE)
 }
 \arguments{
-\item{conn}{\code{MariaDBConnection} connection object.}
+\item{conn}{DB connection object.}
 
-\item{...}{Optional parameters.}
-
-\item{query}{\code{SELECT} query.}
+\item{...}{\code{SELECT} query and optional parameters.}
 
 \item{quiet}{Boolean flag to hide status messages.}
 }
@@ -34,6 +32,7 @@ close_conn(conn)
 \seealso{
 Other DB functions: 
 \code{\link{close_conn}()},
+\code{\link{delete}()},
 \code{\link{insert}()},
 \code{\link{list_tables}()},
 \code{\link{open_conn_mysql}()},

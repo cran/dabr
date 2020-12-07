@@ -8,7 +8,7 @@ open_conn_mysql(
   dbname,
   user = "root",
   password = NULL,
-  host = "localhost",
+  host = "127.0.0.1",
   port = 3306
 )
 }
@@ -38,6 +38,7 @@ conn <- open_conn_mysql("sys")
 \seealso{
 Other DB functions: 
 \code{\link{close_conn}()},
+\code{\link{delete}()},
 \code{\link{insert}()},
 \code{\link{list_tables}()},
 \code{\link{select_all}()},

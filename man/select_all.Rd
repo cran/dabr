@@ -27,14 +27,15 @@ parameter.
 }
 \examples{
 \dontrun{
-conn <- open_conn_mysql("sys", "root")
-out <- select_all(conn, "sys_config")
-close_conn(conn)
+conn <- dabr::open_conn_mysql("sys", "root")
+out <- dabr::select_all(conn, "sys_config")
+dabr::close_conn(conn)
 }
 }
 \seealso{
 Other DB functions: 
 \code{\link{close_conn}()},
+\code{\link{delete}()},
 \code{\link{insert}()},
 \code{\link{list_tables}()},
 \code{\link{open_conn_mysql}()},

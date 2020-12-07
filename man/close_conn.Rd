@@ -13,7 +13,7 @@ close_conn(conn, ...)
 \method{close_conn}{default}(conn, ...)
 }
 \arguments{
-\item{conn}{Connection object.}
+\item{conn}{DB connection object.}
 
 \item{...}{Optional parameters.}
 }
@@ -28,6 +28,7 @@ close_conn(conn)
 }
 \seealso{
 Other DB functions: 
+\code{\link{delete}()},
 \code{\link{insert}()},
 \code{\link{list_tables}()},
 \code{\link{open_conn_mysql}()},

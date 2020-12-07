@@ -5,10 +5,10 @@
 
 <!-- badges: start -->
 
-[![](https://img.shields.io/badge/devel%20version-0.0.0.9000-yellow.svg)](https://github.com/special-uor/dabr)
+[![](https://www.r-pkg.org/badges/version/dabr?color=black)](https://cran.r-project.org/package=dabr)
+[![](https://img.shields.io/badge/devel%20version-0.0.2-yellow.svg)](https://github.com/special-uor/dabr)
 [![R build
 status](https://github.com/special-uor/dabr/workflows/R-CMD-check/badge.svg)](https://github.com/special-uor/dabr/actions)
-[![](https://www.r-pkg.org/badges/version/dabr?color=black)](https://cran.r-project.org/package=dabr)
 <!-- badges: end -->
 
 The goal of dabr is to provide functions to manage databases: select,
@@ -18,7 +18,7 @@ files, and import CSV files as tables.
 ## Installation
 
 You can install the released version of dabr from
-[CRAN](https://CRAN.R-project.org) with:
+[CRAN](https://cran.r-project.org/package=dabr) with:
 
 ``` r
 install.packages("dabr")
@@ -29,7 +29,7 @@ And the development version from
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("special-uor/dabr")
+remotes::install_github("special-uor/dabr", "dev")
 ```
 
 ## Example
@@ -38,7 +38,8 @@ Connecting to the Reading Palaeofire Database (RPD), locally installed
 under the name `RPD-latest`:
 
 ``` r
-conn <- dabr::open_conn_mysql("RPD-latest")
+conn <- dabr::open_conn_mysql("RPD-latest", 
+                              password = rstudioapi::askForPassword(prompt = "Password"))
 ```
 
 Explore the database structure by listing the tables and their
