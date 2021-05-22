@@ -1,3 +1,8 @@
+# dabr 0.0.3
+
+* Updated the return type for select queries to a tibble.
+* Added the pipe operator from the `magrittr` package.
+
 # dabr 0.0.2
 
 * Added option to return tables' attributes with `dabr::list_table(quiet = TRUE)`. 

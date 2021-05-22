@@ -1,9 +1,10 @@
-3c325d984b378fc576b02ea99dbd5048 *DESCRIPTION
-b1b12dc33d234b92c4a0e4210a7ca92a *NAMESPACE
-b7d57a96e6b99ef4cd239b7b7374d765 *NEWS.md
-9e9538d17647b45c219d90123829cd30 *R/dabr.R
+e38e1cd4e23b2f2fbc8bbe1388ed7627 *DESCRIPTION
+139d5ed35d1c844712c36f0aefdd9c94 *NAMESPACE
+964241a7827beea404920e64733cb330 *NEWS.md
+fc3a54ee6dc4fc4886793809a6b8c678 *R/dabr.R
+65cef5e0674056f6fc07dd2b3ca85c13 *R/utils-pipe.R
 00984d6a558ab67be12f399afa517f4b *R/utils-text.R
-56ca600f0329cd96c340cbd7846f3db1 *README.md
+c815cd35863ab5d946c5db3a93c2a807 *README.md
 5427eb5e2d4b1ba1fa225d61487c4f4e *man/attributes.Rd
 4801ff84a77d8c69aa2f829a1f70fb2d *man/close_conn.Rd
 ed28d156b08f78a5c6ebf7f3edeed5bd *man/dabr-package.Rd
@@ -13,6 +14,7 @@ a59ffe2cd9c95ada0c3a7b34e2a77902 *man/delete.Rd
 18b5c40f2392d5f827c7bcecb77c93b0 *man/is.connected.Rd
 d1202ad87e567880fcf39a252e4ca502 *man/list_tables.Rd
 03d6e92eb2df344fb82859fe528c0cc6 *man/open_conn_mysql.Rd
+4894ca10756199e25f914bfd34f517b0 *man/pipe.Rd
 26f5d864a0e4873122c6bfec12ac27b0 *man/quote.Rd
 c419875b6f39b2ecfbb473be76f136a4 *man/select.Rd
 2dfba8547dbd14b598e2d72136945d8f *man/select_all.Rd
