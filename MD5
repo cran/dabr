@@ -1,13 +1,13 @@
-e38e1cd4e23b2f2fbc8bbe1388ed7627 *DESCRIPTION
+85813cb15e5ce03ec834c39990bfecc7 *DESCRIPTION
 139d5ed35d1c844712c36f0aefdd9c94 *NAMESPACE
-964241a7827beea404920e64733cb330 *NEWS.md
+e61da1fb27761251f84dbe1b0ca0dc35 *NEWS.md
 fc3a54ee6dc4fc4886793809a6b8c678 *R/dabr.R
 65cef5e0674056f6fc07dd2b3ca85c13 *R/utils-pipe.R
 00984d6a558ab67be12f399afa517f4b *R/utils-text.R
-c815cd35863ab5d946c5db3a93c2a807 *README.md
+8975f6969eddf813fb57d84402ff4261 *README.md
 5427eb5e2d4b1ba1fa225d61487c4f4e *man/attributes.Rd
 4801ff84a77d8c69aa2f829a1f70fb2d *man/close_conn.Rd
-ed28d156b08f78a5c6ebf7f3edeed5bd *man/dabr-package.Rd
+79f5fc80e2acafd8622e8ff9303538d0 *man/dabr-package.Rd
 a59ffe2cd9c95ada0c3a7b34e2a77902 *man/delete.Rd
 090ae45faecff0f1b2170e8776fac928 *man/get_attr.Rd
 03af20be94e34dec8f4c8c9e8fa91507 *man/insert.Rd
